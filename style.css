@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e0f2ff, #a0c3f2);
+}
+
+#intro-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*centra verticalmente*/
+    flex-direction: column; /*figli impilati verticalmente*/
+    justify-content: center; /*allinea asse principale*/
+    align-items: center; /*allinea asse trasversale*/
+    text-align: center;
+}
+
+#intro-box h1{
+    font-size: 53px;
+    font-weight: normal;
+    color: black;
+    margin-bottom: 5px;
+}
+
+#intro-box h2{
+    font-size: 32px;
+    font-weight: normal;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-button {
+    text-decoration: none;
+    justify-content: center;
+    color: #007bff;
+    background-color: #e6f2ff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #007bff;
+}
+
+a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.titolo {
+    font-size: 50px;
+    font-weight: normal;
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#content-box {
+    display: flex;
+    flex-wrap: wrap; /*se spazio piccolo, elementi vanno a capo*/
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#text-content {
+    flex: 1 1 500px;
+    min-width: 300px;
+}
+
+p{
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+#image-content {
+    flex: 0 1 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#image-content img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.progetti {
+    margin: 20px;
+    padding: 5px 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+.progetti h2{
+    text-align: center;
+}
+
+ .progetti img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
