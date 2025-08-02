@@ -96,6 +96,22 @@ p{
     border-radius: 10px;
 }
 
+.cta-button {
+    text-decoration: none;
+    color: white; 
+    background-color: #007bff; 
+    padding: 12px 25px; 
+    border-radius: 25px;
+    border: none;
+    font-weight: bold; 
+    margin-top: 20px; 
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #0056b3; 
+}
+
 .progetti {
     margin: 20px;
     padding: 10px 20px;
@@ -107,10 +123,45 @@ p{
     text-align: center;
 }
 
- .progetti img{
+ .mockup {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 45%;
     border-radius: 10px;
+}
+
+.progetto {
+    padding: 0 30px;
+}
+
+footer {
+    background-color: #0c337c; 
+    color: #fff; 
+    padding: 1px 0;
+    text-align: center;
+}
+
+#contatti{
+
+}
+
+.lista-contatti {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#email{
+    list-style-image: url(imm/gmail-icon-free-png.webp);
+}
+
+#telefono{
+    list-style-image: url(imm/telefono.webp);
+}
+
+#linkedin{
+    list-style-image: url(imm/linkedin.webp);
 }

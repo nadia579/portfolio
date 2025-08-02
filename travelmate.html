@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelMate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="titolo">TravelMate: un'applicazione mobile per la pianificazione personalizzata dei viaggi</h1>
+    <div class="progetto">
+        <h2>Obiettivo del Progetto</h2>
+        <p>L'obiettivo di questo progetto di tesi è progettare e sviluppare <strong>TravelMate</strong>, un sistema di raccomandazione turistico più completo. 
+           L'applicazione mira a offrire suggerimenti personalizzati che tengano conto non solo delle preferenze esplicite dell'utente, ma anche di fattori contestuali ed emozionali legati all'esperienza di viaggio.
+           La motivazione nasce dall'analisi delle piattaforme di viaggio esistenti, come Booking.com e Skyscanner, che pur essendo utili, presentano delle limitazioni nel considerare le preferenze esperienziali, il tipo di vacanza desiderata o la compagnia di viaggio, mostrando una certa rigidità nel proporre destinazioni meno conosciute.</p>
+
+        <h2>Analisi e Raccolta Requisiti</h2>
+        <p>Il problema principale identificato è che gli utenti sono spesso sommersi da un'eccessiva quantità di opzioni irrilevanti, a causa di un sovraccarico informativo non personalizzato.
+            I viaggi sono influenzati da fattori emotivi e sociali, ma le piattaforme attuali spesso trascurano queste sfumature.
+            Un'altra problematica è la difficoltà nella scoperta di mete uniche, in quanto le piattaforme tendono a promuovere destinazioni popolari, ostacolando la scoperta di opzioni meno conosciute ma potenzialmente più adatte alle preferenze dell'utente.</p>
+
+        <h2> La Soluzione Proposta</h2>
+        <p>TravelMate è stata pensata per superare le lacune delle attuali piattaforme di viaggio, che spesso non riescono a personalizzare i suggerimenti in base a fattori emozionali e contestuali.
+           L'applicazione si basa su un approccio ibrido, che combina due tecniche per offrire raccomandazioni più precise:
+            <ul>
+                <li>Collaborative Filtering: suggerisce destinazioni basandosi sulle scelte di utenti con preferenze simili</li>
+                <li>Content-Based: raccomanda destinazioni simili a quelle già apprezzate dall'utente</li>
+            </ul>
+            L'applicazione è stata sviluppata con un'architettura a strati e modulare per facilitarne la manutenzione
+            <ul>
+                <li>Front-end: l'interfaccia utente è stata realizzata utilizzando il framework Flutter, che consente di creare applicazioni mobili con un design moderno e intuitivo.</li>
+                <li>Back-end: la logica del sistema è gestita da un'API sviluppata in Flask, che permette una facile integrazione con il front-end e la gestione delle richieste degli utenti.</li>
+                <li>Database: i dati vengono archiviati e gestiti con un database cloud Firestore, che offre scalabilità e facilità di accesso ai dati.</li>
+            </ul>
+            L'applicazione aiuta gli utenti a prendere decisioni sui viaggi, non solo semplificando il processo decisionale, ma anche aiutandoli a scoprire nuove opzioni di viaggio in linea con i loro interessi e necessità.
+        </p>
+        
+        <h2> Strumenti utilizzati</h2>
+        <ul>
+            <li>Flutter: per lo sviluppo dell'interfaccia utente</li>
+            <li>Flask: per la creazione dell'API back-end</li>
+            <li>Firestore: per la gestione del database</li>
+            <li>Python: per la logica di programmazione e l'implementazione degli algoritmi di raccomandazione</li>
+        </ul>
+
+        <h2>Prototipo</h2>
+        <img src="imm/mockup-TravelMate.jpg" alt="mockup-TravelMate" class="mockup">
+        <p>Vuoi scoprire di più? Dai un'occhiata al <a href="https://drive.google.com/file/d/1bI8jpHRBWNkIAO2SL7Go5-GQ52jUETB9/view?usp=drive_link" target="_blank"> video demo </a> per esplorare tutte le funzionalità di TravelMate!</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 Nadia Ballesio. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
