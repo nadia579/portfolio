@@ -22,7 +22,7 @@ body {
     text-align: center;
 }
 
-#content-box {
+#presentazione {
     display: flex;
     flex-wrap: wrap; /*se spazio piccolo, elementi vanno a capo*/
     justify-content: center;
@@ -33,14 +33,14 @@ body {
     margin: 0 auto;
 }
 
-#content-box h1{
+#presentazione h1{
     font-size: 53px;
     font-weight: normal;
     color: black;
     margin-bottom: 5px;
 }
 
-#content-box h2{
+#presentazione h2{
     font-size: 32px;
     font-weight: normal;
     color: black;
@@ -48,7 +48,7 @@ body {
     margin-top: 0;
 }
 
-#text-content {
+#testo-presentazione {
     flex: 1 1 500px;
     min-width: 300px;
 }
@@ -58,13 +58,13 @@ p{
     font-size: 17px;
 }
 
-#image-content {
+#immagine-mia {
     flex: 0 1 300px;
     display: flex;
     justify-content: center;
 }
 
-#image-content img {
+#immagine-mia img {
     width: 100%;
     max-width: 250px;
     height: auto;
@@ -101,22 +101,15 @@ p{
 }
 
 .competenza {
-    background: #e0f2ff;
+    background: #d4ecff;
     border-radius: 10px;
-    padding: 20px 30px;
+    padding: 10px 20px;
     font-size: 23px;
     font-weight: bold;
-    text-align: center;
     color: #0c337c;
 }
 
-.icona-comp {
-    font-size: 32px;
-    display: block;
-    margin-bottom: 8px;
-}
-
-.descrizione-comp {
+.linguaggi {
     font-size: 17px;
     font-weight: normal;
     margin-top: 8px;
@@ -124,15 +117,16 @@ p{
 }
 
 .progetti {
-    margin: 20px;
-    padding: 10px 20px;
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    background: #eaf4fb;
+    border-radius: 12px;
+    margin: 30px auto;
+    max-width: 70%;
+    padding: 20px;
+    gap: 30px;
 }
 
-.progetti h2{
-    text-align: center;
-}
 
  .mockup {
     display: block;
@@ -140,6 +134,29 @@ p{
     margin-right: auto;
     width: 45%;
     border-radius: 10px;
+}
+
+.info-progetto {
+    flex: 1;
+}
+
+.progetti h2{
+    text-align: center;
+}
+
+.linguaggi-usati {
+    margin: 12px 0;
+}
+
+.linguaggi-usati span {
+    display: inline-block;
+    background: #d4ecff;
+    color: #0c337c;
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-size: 15px;
+    margin-right: 8px;
+    margin-bottom: 4px;
 }
 
 .progetto {
@@ -154,26 +171,30 @@ footer {
     margin-top: auto;
 }
 
-#contatti{
-
+#p-contatto{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
 }
 
-.lista-contatti {
-    list-style: none;
-    padding: 0;
+#contatti-lista {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
-#email{
-    list-style-image: url(imm/gmail-icon-free-png.webp);
+.contatto-box {
+    background: #d4ecff;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 20px;
+    min-width: 220px;
+    text-align: center;
 }
 
-#telefono{
-    list-style-image: url(imm/telefono.webp);
-}
-
-#linkedin{
-    list-style-image: url(imm/linkedin.webp);
+.contatto-box strong {
+    font-size: 23px;
+    display: block;
+    margin-bottom: 10px;
 }
