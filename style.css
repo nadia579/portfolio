@@ -198,3 +198,77 @@ footer {
     display: block;
     margin-bottom: 10px;
 }
+
+
+
+@media (max-width: 900px) {
+    /* Presentazione in colonna */
+    #presentazione {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 15px;
+    }
+    #testo-presentazione {
+        text-align: center;
+    }
+    #immagine-mia img {
+        width: 80vw;
+        max-width: 220px;
+        height: auto;
+    }
+
+    /* Competenze in colonna */
+    #competenze-lista {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+    .competenza {
+        width: 90vw;
+        min-width: unset;
+        max-width: 350px;
+        font-size: 1.1em;
+        padding: 12px 10px;
+    }
+
+    /* Bottoni */
+    .button {
+        width: 90vw;
+        max-width: 250px;
+        margin: 8px auto;
+        display: block;
+    }
+
+    /* Progetti: una colonna */
+    .progetti, .progetto {
+        flex-direction: column !important;
+        align-items: center;
+        width: 95vw !important;
+        max-width: 400px;
+        min-width: unset;
+        margin: 0 auto 24px auto;
+        padding: 16px !important;
+    }
+    .mockup {
+        width: 100% !important;
+        max-width: 320px;
+        margin: 0 auto 12px auto;
+        height: auto;
+    }
+
+    /* Contatti: box in colonna */
+    #contatti-lista {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+    .contatto-box {
+        width: 90vw;
+        min-width: unset;
+        max-width: 350px;
+        margin: 0 auto;
+        font-size: 1em;
+        padding: 18px 10px;
+    }
+}
