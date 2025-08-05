@@ -199,6 +199,10 @@ footer {
     margin-bottom: 10px;
 }
 
+#demo{
+    margin: 0;
+    text-align: center;
+}
 
 
 @media (max-width: 1000px) {
